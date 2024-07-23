@@ -31,6 +31,12 @@
       "latex": "e^{\\pi i} + 1 = 0"
     },
     {
+      "title": "Euler-Maclaurin formula",
+      "description": "Alternative notation of the approximation of the euler maclaurin formula",
+      "latex": "\\sum^n_{i=m+1} f(i) = \\int_m^n f(x)\\,dx+ \\frac{f(n)-f(m)}{2} + \\sum^{\\left\\lfloor \\frac{p}{2} \\right\\rfloor}_{k=1} \\frac{B_{2k}}{(2k)!} \\left(f^{(2k-1)} (n) - f^{(2k-1)}\\left(m  \\right)  \\right) + R_p"
+
+    },
+    {
       "title": "Euler's Lesser-Known Identity",
       "description": "Troll.",
       "latex": "\\lceil e \\rceil - \\lfloor \\pi \\rfloor = 0"
